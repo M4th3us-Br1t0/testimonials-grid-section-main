@@ -1,0 +1,125 @@
+body{
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 270.5px 270.5px 253px 255px;
+    grid-template-rows: 282px 266px;
+    grid-gap: 25px 28px;
+    grid-template-areas:"card-big card-big card-little card-big-very"
+                        "card-little-two card-big-two card-big-two card-big-very"
+}
+
+.container .first-info{
+    display: flex;
+    padding-bottom: 18px;
+}
+
+.container .image-profile{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.container .name-profile{
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+}
+
+.container .info-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.container .text-abot{
+    font-size: 13px;
+    color: hsl(0, 0%, 81%);
+}
+
+.container .verified-graduate{
+    font-size: 11px;
+    color: hsl(0, 0%, 81%);
+}
+
+.container .card-big{
+    background-color: hsl(263, 55%, 52%);
+    /* width: 540px;
+    height: 282px; */
+    grid-area: card-big;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 80px top;
+    border-radius: 8px;
+}
+
+.container .card-little{
+    background-color: hsl(217, 19%, 35%);
+    /* width: 255px;
+    height: 282px; */
+    grid-area: card-little;
+    border-radius: 8px;
+}
+
+.container .card-little-two{
+    background-color: hsl(0, 0%, 100%);
+    /* width: 255px;
+    height: 266px; */
+    grid-area: card-little-two;
+    border-radius: 8px;
+}
+
+.container .card-big-two{
+    background-color: hsl(219, 29%, 14%);
+    /* width: 541px;
+    height: 266px; */
+    grid-area: card-big-two;
+    border-radius: 8px;
+}
+
+.container .card-big-very{
+    background-color:hsl(0, 0%, 100%);
+    /* width: 255px;
+    height: 570px; */
+    grid-area: card-big-very;
+    border-radius: 8px;
+}
+
+.container .card-big-very .info-title{
+    color: hsl(219, 29%, 14%);
+}
+
+ .card-big-very .name-profile{
+    color: hsl(219, 29%, 14%);
+}
+
+.container .card-big-very .text-abot{
+    color: hsl(217, 19%, 35%);
+}
+
+.container .card-little-two .info-title{
+    color: hsl(219, 29%, 14%);
+}
+
+.container .card-little-two .text-abot{
+    color: hsl(217, 19%, 35%);
+}
+
+.container .card-little-two .name-profile{
+    color: hsl(219, 29%, 14%);
+}
+
+.container .card .text-abot{
+    padding-top: 15px;
+}
+
+.container .card{
+    padding-top: 25px;
+    padding-left: 31px;
+    padding-right: 50px;
+}

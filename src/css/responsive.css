@@ -1,0 +1,24 @@
+@media(max-width: 1170px){
+
+    body{
+        height: 1966px;
+        justify-content: center;
+    }
+
+    .container{
+        margin-top: 500px;
+        grid-template-columns: 326px;
+        grid-template-rows: 221px 221px 240px 221px 191.5px 191.5px 442px 437px;
+        grid-template-areas: "card-big"
+                             "card-big"
+                             "card-little"
+                             "card-little-two"
+                             "card-big-two"
+                             "card-big-two"
+                             "card-big-very";    
+    }
+
+    .container .card-big{
+        background-position: right 30px top;
+    }
+}
